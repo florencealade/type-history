@@ -9,7 +9,7 @@
 
 /*----- MAIN STYLING -----*/
 body {
-  width: 80%;
+  width: 85%;
   max-width: 700px;
   margin: auto;
   background: #fdfdfd;
@@ -23,10 +23,6 @@ h1, h2 {
   text-align: center;
 }
 
-p, blockquote {
-  margin-bottom: 1.5em;
-}
-
 h1 {
   font-size: 3.827em;
   margin-top: 3em;
@@ -36,18 +32,6 @@ h1 {
 h2 {
   font-size: 1.999em;
   margin: 3em 0 1em 0;
-}
-
-blockquote {
-  font-size: 1.333em;
-  color: #110070;
-  hanging-punctuation: first;
-  text-indent: -0.44em;
-}
-
-blockquote cite {
-  font-size: 0.75em;
-  color: #333
 }
 
 header h2 {
@@ -63,11 +47,11 @@ header p {
 
 /*----- STYLING LINKS -----*/
 a{
-  color: #008080;
+  color: #fdfdfd;
   text-decoration: none;
 }
 a:hover {
-  color: #008080;
+  color: #575CDB;
   border-bottom: 1px dotted;
 }
 /*----- NAVIGATION -----*/
@@ -95,7 +79,7 @@ nav ul li {
 }
 
 nav a:link {
-  color: #fdfdfd
+  color: #fdfdfd;
 }
 
 
