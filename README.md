@@ -12,5 +12,5 @@ Version 2, with some css!
 
 The History of Type
 ==================
-[Version 3](https://florencealade.github.io/type-history/type-history3.html)
+[Version 3](https://florencealade.github.io/type-history3.html)
 *05 December 2020*
