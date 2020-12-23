@@ -1,6 +1,6 @@
 The History of Type
 ==================
-[Version 1](https://florencealade.github.io/type-history.html)
+[Version 1](https://florencealade.github.io/type-history/type-history.html)
 *15 November 2020*
 Created another web page marking up some plain text with HTML5!
 
@@ -12,5 +12,5 @@ Version 2, with some css!
 
 The History of Type
 ==================
-[Version 3](https://florencealade.github.io/type-history3.html)
+[Version 3]( https://florencealade.github.io/type-history/type-history.html)
 *05 December 2020*
