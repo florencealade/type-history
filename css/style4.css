@@ -20,7 +20,7 @@ body {
 /*----- TYPOGRAPHY  -----*/
 h1, h2 {
   font-weight: bolder;
-  color: #A3AAB5;
+  color: #7DA2A9;
   text-align: center;
 }
 
@@ -53,23 +53,54 @@ header p {
 hr {
   margin-top: 3em 0;
   height: 1px;
-  background: #6A91E6;
-  color: #6A91E6;
+  background: #333;
+  color: #333;
   border: 0 none
 }
 
 p {margin-bottom: 1em;
 line-height: 1.4}
 
-/*----- STYLING LINKS -----*/
-a{
-  color: #fdfdfd;
-  text-decoration: none;
+
+
+/*-----Images-----*/
+img {
+  margin-top: 0;
+  margin-bottom: 3em;
 }
-a:hover {
-  color: #575CDB;
-  border-bottom: 1px dotted;
+
+/*-----STYLING TABLE-----*/
+table {
+  margin: auto;
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 2px;
+  margin-bottom: 2em;
+  width: 100%;
 }
+
+caption {
+  margin: 1.5em 0;
+  text-transform: uppercase:
+}
+
+th {
+  color: #333;
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: left;
+  background: #7DA2A9;
+}
+
+th, td {
+  padding: 0.7em;
+}
+
+table, td {
+  background: #fdfdfd;
+  border: 2px solid #7DA2A9;
+}
+
 /*----- NAVIGATION -----*/
 nav {
   position: fixed;
@@ -77,7 +108,8 @@ nav {
   left: 0;
   margin: 0;
   width: 100%;
-  background-color: #6A91E6;
+  height: 3%;
+  background-color: #7DA2A9;
   padding: 1em 0;
   font-size: 0.75em;
 }
@@ -85,24 +117,30 @@ nav {
 nav ul {
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 1px
+  letter-spacing: 1px;
+  margin-top: 10px;
 }
 
 nav ul li {
   display: inline;
   margin: 20px;
   background: none;
+
 }
 
 nav a:link {
-  color: #fdfdfd;
+  color: #000000;
 }
 
 nav a:hover {
-  color: rgb(179, 181, 252);
-  border-bottom: none
+  color: #6F768F;
+  border-bottom: line;
+  transition: all 0.4s ease-in-out;
 }
 
+nav a:visited {
+  color: #fdfdfd;
+}
 
 /*----- FOOTER-----*/
 footer {
