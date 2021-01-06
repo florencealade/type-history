@@ -20,7 +20,7 @@ body {
 /*----- TYPOGRAPHY  -----*/
 h1, h2 {
   font-weight: bolder;
-  color: #110070;
+  color: #7DA2A9;
   text-align: center;
 }
 
@@ -53,8 +53,8 @@ header p {
 hr {
   margin-top: 3em 0;
   height: 1px;
-  background: #110070;
-  color: #110070;
+  background: #333;
+  color: #333;
   border: 0 none
 }
 
@@ -70,6 +70,7 @@ a:hover {
   color: #575CDB;
   border-bottom: 1px dotted;
 }
+
 /*----- NAVIGATION -----*/
 nav {
   position: fixed;
@@ -77,7 +78,8 @@ nav {
   left: 0;
   margin: 0;
   width: 100%;
-  background-color: #110070;
+  height: 3%;
+  background-color: #7DA2A9;
   padding: 1em 0;
   font-size: 0.75em;
 }
@@ -85,24 +87,30 @@ nav {
 nav ul {
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 1px
+  letter-spacing: 1px;
+  margin-top: 10px;
 }
 
 nav ul li {
   display: inline;
   margin: 20px;
   background: none;
+
 }
 
 nav a:link {
-  color: #fdfdfd;
+  color: #000000;
 }
 
 nav a:hover {
-  color: rgb(179, 181, 252);
-  border-bottom: none
+  color: #6F768F;
+  border-bottom: line;
+  transition: all 0.4s ease-in-out;
 }
 
+nav a:visited {
+  color: #fdfdfd;
+}
 
 /*----- FOOTER-----*/
 footer {
