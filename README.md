@@ -14,8 +14,10 @@ The History of Type
 ==================
 [Version 3]( https://florencealade.github.io/type-history/type-history3.html)
 *05 December 2020*
+Version 3, adding fonts!
 
 The History of Type
 ==================
 [Version 3]( https://florencealade.github.io/type-history/type-history4.html)
 *05 December 2020*
+Version 4, table and images!
